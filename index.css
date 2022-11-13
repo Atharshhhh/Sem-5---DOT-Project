@@ -208,12 +208,12 @@
   border-color: transparent;
 }
 .login-page-text14 {
-  top: 492px;
-  left: 836px;
+  top: 480px;
+  left: 862px;
   color: rgba(0, 0, 0, 1);
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: Regular;
   text-align: center;
@@ -921,29 +921,47 @@
 .login-page-rectangle409 {
   top: 334px;
   left: 85px;
-  width: 321px;
-  height: 62px;
+  width: 296px;
+  height: 56px;
   position: absolute;
   border-color: transparent;
   border-radius: 4px;
+  font-family: Poppins;
+  padding-left: 2%;
+  font-size: 3vh;
+}
+.login-page-rectangle409:hover{
+  background-color: rgb(209, 194, 255);
 }
 .login-page-rectangle411 {
   top: 440px;
   left: 86px;
-  width: 321px;
-  height: 57px;
+  width: 296px;
+  height: 56px;
   position: absolute;
   border-color: transparent;
   border-radius: 4px;
+  font-family: Poppins;
+  padding-left: 2%;
+  font-size: 3vh;
+}
+.login-page-rectangle411:hover{
+  background-color: rgb(209, 194, 255);
 }
 .login-page-rectangle410 {
   top: 334px;
   left: 425px;
-  width: 323px;
-  height: 62px;
+  width: 296px;
+  height: 56px;
   position: absolute;
   border-color: transparent;
   border-radius: 4px;
+  font-family: Poppins;
+  padding-left: 2%;
+  font-size: 3vh;
+}
+.login-page-rectangle410:hover{
+  background-color: rgb(209, 194, 255);
 }
 .login-page-b-t-n21 {
   top: 542px;
