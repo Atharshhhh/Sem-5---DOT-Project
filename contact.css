@@ -404,47 +404,77 @@
 .contact-rectangle407 {
   top: 1127px;
   left: 174px;
-  width: 494px;
+  width: 470px;
   height: 96px;
   position: absolute;
   border-color: transparent;
   border-radius: 4px;
+  font-family: Poppins;
+  padding-left: 2%;
+  font-size: 4vh;
+}
+.contact-rectangle407:hover{
+  background-color: rgb(215, 206, 240);
 }
 .contact-rectangle408 {
   top: 1127px;
   left: 698px;
-  width: 496px;
+  width: 476px;
   height: 96px;
   position: absolute;
   border-color: transparent;
   border-radius: 4px;
+  font-family: Poppins;
+  padding-left: 2%;
+  font-size: 4vh;
+}
+.contact-rectangle408:hover{
+  background-color: rgb(209, 194, 255);
 }
 .contact-rectangle409 {
-  top: 1282px;
+  top: 1279px;
   left: 175px;
-  width: 493px;
-  height: 96px;
+  width: 470px;
+  height: 94px;
   position: absolute;
   border-color: transparent;
   border-radius: 4px;
+  font-family: Poppins;
+  padding-left: 2%;
+  font-size: 4vh;
+}
+.contact-rectangle409:hover{
+  background-color: rgb(209, 194, 255);
 }
 .contact-rectangle411 {
   top: 1429px;
   left: 174px;
-  width: 1020px;
-  height: 227px;
+  width: 864px;
+  height: 98px;
   position: absolute;
   border-color: transparent;
   border-radius: 4px;
+  font-family: Poppins;
+  padding: 6%;
+  font-size: 4vh;
+}
+.contact-rectangle411:hover{
+  background-color: rgb(215, 206, 240);
 }
 .contact-rectangle410 {
-  top: 1282px;
+  top: 1278px;
   left: 698px;
-  width: 496px;
+  width: 474px;
   height: 96px;
   position: absolute;
   border-color: transparent;
   border-radius: 4px;
+  font-family: Poppins;
+  padding-left: 2%;
+  font-size: 4vh;
+}
+.contact-rectangle410:hover{
+  background-color: rgb(215, 206, 240);
 }
 .contact-b-t-n2 {
   top: 1729px;
@@ -484,6 +514,10 @@
   position: absolute;
   border-color: transparent;
 }
+.contact-rectangle26:hover{
+  cursor: pointer;
+    box-shadow: rgb(104, 104, 104) 8px 8px 15px;
+}
 .contact-text40 {
   top: 14px;
   left: 57px;
@@ -492,13 +526,17 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Medium;
+  font-style: normal;
   text-align: left;
   font-family: Poppins;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+.contact-text40:hover{
+  cursor: pointer;
+  color: rgb(182, 179, 216);
 }
 .contact-dayflow-plant {
   top: 670px;

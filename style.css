@@ -25,6 +25,23 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
 a{
   text-decoration: none;
 }
