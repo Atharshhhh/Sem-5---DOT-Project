@@ -7,6 +7,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+
 .input {
   color: var(--dl-color-gray-black);
   cursor: auto;
@@ -16,6 +17,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+
 .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
@@ -24,14 +26,6 @@
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
-}
-.list {
-  width: 100%;
-  margin: 1em 0px 1em 0px;
-  display: block;
-  padding: 0px 0px 0px 1.5rem;
-  list-style-type: none;
-  list-style-position: outside;
 }
 
 .Heading {
@@ -45,13 +39,17 @@
 a{
   text-decoration: none;
 }
+
 a:visited {
-  color: rgba(30, 30, 30, 1) ;
+  color: rgba(30, 30, 30, 1);
 }
+
 a:hover {
   cursor: pointer;
   text-decoration: overline;
+  box-shadow: black 8px 8px 15px;
 }
-a:link{
+
+a:link {
   color: rgba(30, 30, 30, 1);
 }
