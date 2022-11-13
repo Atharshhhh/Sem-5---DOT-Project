@@ -47,7 +47,6 @@ a:visited {
 a:hover {
   cursor: pointer;
   text-decoration: overline;
-  box-shadow: black 8px 8px 15px;
 }
 
 a:link {
