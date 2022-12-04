@@ -975,12 +975,23 @@
   text-decoration: none;
 }
 .checkout-page-rectangle416 {
-  top: 270px;
+  top: 280px;
   left: 62px;
   width: 314px;
   height: 64px;
   position: absolute;
   border-color: transparent;
+  background:rgb(168, 165, 237) ;
+  font-size: 18px;
+  font-family: poppins;
+  border: rgb(121, 116, 238) 2px solid;
+  padding-left: 20px;
+  border-radius: 4px;
+}
+option{
+  font-size: 16px;
+  background:rgb(210, 209, 243);
+  border: rgb(121, 116, 238) 2px solid;
 }
 .checkout-page-text74 {
   top: 296px;
@@ -1215,7 +1226,7 @@
   background-color: transparent;
 }
 .checkout-page-rectangle251 {
-  top: 7.071990966796875px;
+  top: 60px;
   left: 6.1884765625px;
   width: 215px;
   height: 58px;
@@ -1223,7 +1234,7 @@
   border-color: transparent;
 }
 .checkout-page-rectangle26 {
-  top: 0px;
+  top: 50px;
   left: 0px;
   width: 215px;
   height: 58px;
@@ -1231,7 +1242,7 @@
   border-color: transparent;
 }
 .checkout-page-text97 {
-  top: 16px;
+  top: 64px;
   left: 30px;
   color: rgba(255, 255, 255, 1);
   height: auto;

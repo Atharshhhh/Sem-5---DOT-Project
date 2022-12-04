@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
-    <title>exported project</title>
+    <title>Checkout | DOT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
     <style data-tag="default-style-sheet">
       html {
         font-family: Inter;
@@ -22,11 +19,16 @@
         text-transform: none;
         letter-spacing: normal;
         line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
 
       }
     </style>
+    <!-- JavaScript -->
+  <script>
+    function pop() {
+      alert('Order Confirmed Successfully!\n____________\n\n Continue Shopping!\n____________');
+      window.location.href = './homepage.html'
+    }
+  </script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
@@ -52,17 +54,17 @@
           />
           <span class="checkout-page-text"><span>Checkout</span></span>
           <div class="checkout-page-t-o-p-n-a-v">
-            <span class="checkout-page-text02"><span>Home</span></span>
+            <span class="checkout-page-text02"><span><a href="./homepage.html">Home</a></span></span>
             <span class="checkout-page-text04">
-              <span>Skins &amp; Cases</span>
+              <span><a href="./products.html">Skins &amp; Cases</a></span>
             </span>
-            <span class="checkout-page-text06"><span>Contact</span></span>
-            <span class="checkout-page-text08"><span>About us</span></span>
+            <span class="checkout-page-text06"><span><a href="./contact.html">Contact</a></span></span>
+            <span class="checkout-page-text08"><span><a href="./aboutus.html">About us</a></span></span>
             <span class="checkout-page-text10">
-              <span>Device Not Found?</span>
+              <!-- <span>{{dot.fname}}</span> -->
             </span>
             <span class="checkout-page-text12">
-              <span>Special Edition</span>
+              <span><a href="./homepage.html/#S-Ed">Special Edition</a></span>
             </span>
             <span class="checkout-page-text14"><span>DOT.</span></span>
             <img
@@ -94,16 +96,16 @@
             <div class="checkout-page-company">
               <span class="checkout-page-text28"><span>Contact</span></span>
               <span class="checkout-page-text30"><span>FAQ</span></span>
-              <span class="checkout-page-text32"><span>Login</span></span>
+              <span class="checkout-page-text32"><span><a href="./index.html">Login</a></span></span>
               <span class="checkout-page-text34">
                 <span>Authetication</span>
               </span>
             </div>
             <div class="checkout-page-get-help">
               <span class="checkout-page-text36"><span>Pages</span></span>
-              <span class="checkout-page-text38"><span>Home</span></span>
-              <span class="checkout-page-text40"><span>About us</span></span>
-              <span class="checkout-page-text42"><span>Contact</span></span>
+              <span class="checkout-page-text38"><span><a href="./homepage.html">Home</a></span></span>
+              <span class="checkout-page-text40"><span><a href="./aboutus.html">About us</a></span></span>
+              <span class="checkout-page-text42"><span><a href ="./contact.html">Contact</a></span></span>
             </div>
             <div class="checkout-page-frame1150">
               <span class="checkout-page-text44"><span>Terms</span></span>
@@ -186,13 +188,13 @@
             <span class="checkout-page-text53">
               To view your order status, please
             </span>
-            <span class="checkout-page-text54">Contact us</span>
+            <span class="checkout-page-text54"><a style="text-decoration: none;" href="./contact.html">Contact us</a></span>
             <span>here. Thanks in advance for your patience.</span>
           </span>
-          <span class="checkout-page-text56"><span>Products &gt;</span></span>
+          <span class="checkout-page-text56"><span><a style="text-decoration: none;" href="./products.html">Products &gt;</a></span></span>
           <span class="checkout-page-text58">
-            <span>Add to Cart &gt;</span>
-          </span>
+            <span><a style="text-decoration: none;" href="./cart-page.html">Add to Cart &gt;</a></span>
+          </span> 
           <div class="checkout-page-productchecklist">
             <img
               src="public/playground_assets/rectangle4141731-co4p-600h.png"
@@ -222,15 +224,15 @@
               </span>
               <span class="checkout-page-text70"><span>9373182090</span></span>
               <span class="checkout-page-text72"><span></span></span>
-              <img
-                src="public/playground_assets/rectangle4161751-llp-200h.png"
-                alt="Rectangle4161751"
-                class="checkout-page-rectangle416"
-              />
-              <span class="checkout-page-text74">&gt;</span>
+<!-- dropdown payments -->
+              <select class="checkout-page-rectangle416" name="Payment">
+                <option value="pay1">Google Pay (UPI)</option>
+                <option value="pay2">Credit and Debit Cards</option>
+                <option value="pay3">COD (Cash On delivery)</option>
+                </select>
             </div>
             <span class="checkout-page-text75">
-              <span>Oneplus 10r Skin</span>
+              <span><a href="./oneplusdetails.html">Oneplus 10r Skin</a></span>
             </span>
             <span class="checkout-page-text77"><span>Model :</span></span>
             <span class="checkout-page-text79"><span>Delivery :</span></span>
@@ -239,7 +241,7 @@
             <span class="checkout-page-text85"><span>₹40.00</span></span>
             <span class="checkout-page-text87"><span>₹100.00</span></span>
             <span class="checkout-page-text89"><span>₹389.00</span></span>
-            <span class="checkout-page-text91"><span>x 2</span></span>
+            <span class="checkout-page-text91"><span>x1</span></span>
             <span class="checkout-page-text93"><span>Black Camo</span></span>
             <span class="checkout-page-text95"><span>Total :</span></span>
             <img
@@ -265,7 +267,8 @@
               class="checkout-page-rectangle26"
             />
             <span class="checkout-page-text97">
-              <span>PLace your Order</span>
+              <span><a style="color:white;  text-decoration: none;" href="homepage.html"
+                onclick="pop()">PLace your Order</a></span>
             </span>
           </div>
         </div>
